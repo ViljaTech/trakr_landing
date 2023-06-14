@@ -1,0 +1,693 @@
+.landingPageContainerStyles {
+  padding: 24px 160px 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+}
+
+.allAssetsInnerContinerStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.allAssetsHeadingStyles {
+  font-family: 'NeueHaasDisplayMedium';
+  font-style: normal;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  color: var(--textDark);
+  width: 1024px;
+  margin: auto;
+  padding-inline: 124px;
+}
+.allAssetsButtonGropStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.assAssetsTopStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.contactButtonStyles {
+  background-color: var(--btnLight);
+  color: var(--textDark);
+  border: 1px solid var(--borderDark);
+  box-shadow: 0px 4px 16px rgba(196, 196, 196, 0.12);
+}
+.allAssetsImagBlockStyles {
+  padding: 8px;
+  margin: auto;
+  width: 1248px;
+  height: 795px;
+  max-width: 1248px;
+  max-height: 795px;
+  background-image: url('../../assets/images/AllAssetsBackground.png');
+  background-size: contain;
+  border-radius: 16px;
+  box-shadow: 0px 192px 128px rgba(30, 30, 32, 0.02),
+    0px 80px 80px rgba(30, 30, 150, 0.09);
+}
+.allAssetsMobileImageStyles {
+  display: none;
+}
+.allAssetsImageStyles {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+/************* problems section styles**********/
+
+.problemsInnerContainerStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 64px;
+}
+.problemsLeftStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.problemsHeadingStyles {
+  font-family: 'NeueHaasDisplayMedium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: start;
+  color: var(--textDark);
+  align-self: stretch;
+}
+.problemsDescStyles {
+  font-family: 'Manrope-Medium';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: -0.011em;
+  color: var(--textThinLight);
+  text-align: start;
+  align-self: stretch;
+  width: 768px;
+}
+.tryTtrakrButtonStyles {
+  background-color: var(--btnLight);
+  color: var(--textDark);
+  border: 1px solid var(--borderDark);
+  width: fit-content;
+  word-break: keep-all;
+  box-shadow: 0px 4px 16px rgba(196, 196, 196, 0.12);
+}
+.problemsRightStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.tryTtrakrMobileButtonStyles {
+  display: none;
+  width: 159px;
+  margin: auto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  padding: 12px 32px;
+  background-color: var(--btnLight);
+  color: var(--textDark);
+  border: 1px solid var(--borderDark);
+  box-shadow: 0px 4px 16px rgba(196, 196, 196, 0.12);
+}
+
+/************* advantages section styles ******************/
+.advantagesInnerContainerStyles {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url('../../assets//images/AllAssetsBackground.png');
+  background-size: contain;
+  padding: 64px;
+  border-radius: 32px;
+  gap: 64px;
+}
+.advatageBlockStyles {
+  flex: 46%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 704px;
+}
+.advantageHeadingStyles {
+  text-align: start;
+  font-family: 'NeueHaasDisplayMedium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 60px;
+  color: var(--textDark);
+}
+.advantageDescStyles {
+  text-align: start;
+  font-family: 'Manrope-Medium';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: -0.011em;
+  color: var(--textThinLight);
+}
+
+/*************  features section styles  *****************/
+.featuresInnerContainerStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+}
+.featuresLeftContainerStyles {
+  flex: 50%;
+}
+.featuresRightContainerStyles,
+.mobileFeaturesRightContainerStyles {
+  flex: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featuresCardHeadingStyle {
+  font-family: 'NeueHaasDisplayMedium';
+  text-align: start;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  color: #1e1e20;
+}
+.mobileFeaturesRightContainerStyles {
+  display: none;
+}
+/****************  frequently asked questions section styles***************/
+.freqQuestionInnerContainerStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 968px;
+  margin: auto;
+}
+.freqQuestionHeadingStyles {
+  font-family: 'NeueHaasDisplayMedium';
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  color: var(--textDark);
+}
+.freqQuetionBottomInnerStyles {
+  border: 1px solid var(--borderLight);
+  background: var(--bgLight);
+  border-radius: 32px;
+  padding: 32px;
+}
+.questionBlockStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+.freqQuestionIconStyles {
+  height: 28px;
+  width: 28px;
+}
+.questionAnswerBlockStyles {
+  padding-block: 24px;
+  border-bottom: 1px solid var(--borderLight);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.questionAnswerBlockStyles:last-child {
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+.questionAnswerBlockStyles:first-child {
+  padding-top: 0px;
+}
+.questionStyles {
+  font-family: 'NeueHaasDisplayMedium';
+  text-align: start;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--textDark);
+  cursor: pointer;
+}
+.answerStyles {
+  font-family: 'Manrope-Medium';
+  font-style: normal;
+  text-align: start;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: -0.011em;
+  color: var(--textThinLight);
+  padding-left: 44px;
+}
+.answerBlockCollapseStyles {
+  display: none;
+}
+
+/********* media queries for responsive design ********/
+@media screen and (min-width: 1366px) and (max-width: 1624px) {
+  .landingPageContainerStyles {
+    padding: 24px 96px 96px;
+  }
+  .allAssetsHeadingStyles {
+    font-size: 48px;
+    line-height: 52px;
+    width: 720px;
+    padding-inline: 28px;
+  }
+  .bookDemoButtonStyles {
+    height: 50px;
+  }
+  .contactButtonStyles {
+    height: 50px;
+  }
+  .allAssetsImagBlockStyles {
+    max-width: 1008px;
+    max-height: 637.36px;
+    width: 1008px;
+    height: 637.36px;
+  }
+  .tryTtrakrButtonStyles {
+    width: fit-content;
+    height: 50px;
+  }
+  .problemsHeadingStyles {
+    height: fit-content;
+  }
+  .problemsDescStyles {
+    width: 100%;
+    height: fit-content;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .advantageHeadingStyles {
+    font-size: 48px;
+    line-height: 52px;
+  }
+  .advantageDescStyles {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .featuresCardHeadingStyle {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .freqQuestionHeadingStyles {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .freqQuestionInnerContainerStyles {
+    max-width: 720px;
+    margin: auto;
+  }
+  .questionStyles {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .answerStyles {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .freqQuestionIconStyles {
+    height: 24px;
+    width: 24x;
+  }
+}
+@media screen and (min-width: 1080px) and (max-width: 1365px) {
+  .landingPageContainerStyles {
+    padding: 24px 64px 96px;
+  }
+  .allAssetsHeadingStyles {
+    width: 720px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+    padding-inline: 28px;
+  }
+  .allAssetsImagBlockStyles {
+    max-width: 868px;
+    max-height: 554.72px;
+    width: 868px;
+    height: 554.72px;
+  }
+  .problemsDescStyles {
+    width: 100%;
+    height: fit-content;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .tryTtrakrButtonStyles {
+    width: fit-content;
+    height: 48px;
+  }
+
+  .advantageHeadingStyles {
+    font-size: 48px;
+    line-height: 52px;
+  }
+  .advantageDescStyles {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .featuresCardHeadingStyle {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .freqQuestionHeadingStyles {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .freqQuestionInnerContainerStyles {
+    max-width: 720px;
+    margin: auto;
+  }
+  .questionStyles {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .answerStyles {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .freqQuestionIconStyles {
+    height: 24px;
+    width: 24x;
+  }
+}
+@media screen and (min-width: 868px) and (max-width: 1079px) {
+  .landingPageContainerStyles {
+    padding: 16px 40px 80px;
+    gap: 80px;
+  }
+  .allAssetsInnerContinerStyles {
+    gap: 40px;
+  }
+  .allAssetsHeadingStyles {
+    width: 720px;
+    height: 88px;
+    font-size: 40px;
+    line-height: 44px;
+    padding-inline: 82px;
+  }
+  .allAssetsImagBlockStyles {
+    max-width: 720px;
+    max-height: 461.14px;
+    width: 720px;
+    height: 461.14px;
+  }
+  .problemsInnerContainerStyles {
+    gap: 32px;
+  }
+  .problemsHeadingStyles {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .tryTtrakrButtonStyles {
+    width: fit-content;
+    height: 48px;
+    box-shadow: 0px 4px 16px rgba(196, 196, 196, 0.12);
+  }
+  .problemsDescStyles {
+    width: 100%;
+    height: fit-content;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .advantagesInnerContainerStyles {
+    padding: 40px;
+    gap: 40px;
+  }
+  .advantageHeadingStyles {
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .advantageDescStyles {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .advatageBlockStyles {
+    flex: 42%;
+  }
+  .featuresCardHeadingStyle {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .featuresInnerContainerStyles {
+    gap: 32px;
+  }
+  .freqQuestionHeadingStyles {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .questionStyles {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .answerStyles {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .freqQuestionIconStyles {
+    height: 24px;
+    width: 24x;
+  }
+  .freqQuetionBottomInnerStyles {
+    max-width: 720px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 569px) and (max-width: 868px) {
+  .landingPageContainerStyles {
+    padding: 16px 32px 64px;
+    gap: 64px;
+  }
+  .allAssetsInnerContinerStyles {
+    gap: 32px;
+  }
+  .allAssetsHeadingStyles {
+    width: 504px;
+    height: 80px;
+    font-size: 36px;
+    line-height: 40px;
+    padding-inline: 0px;
+  }
+  .allAssetsImagBlockStyles {
+    max-width: 504px;
+    max-height: 324.56px;
+    width: 504px;
+    height: 324.56px;
+  }
+  .problemsInnerContainerStyles {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .problemsLeftStyles {
+    gap: 16px;
+  }
+  .problemsDescStyles {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .problemsHeadingStyles {
+    font-size: 28px;
+    line-height: 32px;
+    padding-right: 68px;
+  }
+  .tryTtrakrButtonStyles {
+    display: none;
+  }
+  .tryTtrakrMobileButtonStyles {
+    display: block;
+  }
+  .advantagesInnerContainerStyles {
+    flex-direction: column;
+    padding: 32px;
+    border-radius: 24px;
+    gap: 32px;
+  }
+  .advatageBlockStyles {
+    gap: 12px;
+  }
+  .advantageHeadingStyles {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .advantageDescStyles {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .featuresInnerContainerStyles {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .featuresCardHeadingStyle {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .freqQuestionBottomStyles {
+    padding-inline: 0px;
+  }
+  .freqQuestionHeadingStyles {
+    text-align: start;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .questionStyles {
+    font-size: 20px;  
+    line-height: 24px;
+  }
+  .answerStyles {
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 36px;
+  }
+  .questionBlockStyles {
+    gap: 12px;
+  }
+  .freqQuetionBottomInnerStyles {
+    padding: 24px;
+    border-radius: 24px;
+  }
+  .freqQuestionIconStyles {
+    height: 24px;
+    width: 24x;
+  }
+}
+@media screen and (max-width: 568px) {
+  .landingPageContainerStyles {
+    padding: 24px 24px 48px;
+    gap: 48px;
+  }
+  .allAssetsImageStyles {
+    display: none;
+  }
+  .allAssetsMobileImageStyles {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 0px 0px 8px;
+  }
+  .allAssetsInnerContinerStyles {
+    gap: 32px;
+  }
+  .allAssetsHeadingStyles {
+    width: 100%;
+    font-size: 36px;
+    line-height: 40px;
+    padding-inline: 0px;
+    text-align: start;
+  }
+  .allAssetsImagBlockStyles {
+    max-width: 100%;
+    max-height: auto;
+    width: 100%;
+    height: auto;
+    padding: 8px 0px 8px 8px;
+    border-radius: 16px 0px 0px 16px;
+  }
+  .allAssetsButtonGropStyles {
+    flex-direction: column;
+  }
+  .bookDemoButtonStyles,
+  .contactButtonStyles {
+    width: 100%;
+    height: 48px;
+  }
+  .problemsInnerContainerStyles {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .problemsHeadingStyles {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .problemsDescStyles {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .tryTtrakrButtonStyles {
+    display: none;
+  }
+  .tryTtrakrMobileButtonStyles {
+    display: block;
+  }
+  .advantagesInnerContainerStyles {
+    flex-direction: column;
+    padding: 24px;
+    gap: 32px;
+    border-radius: 16px;
+  }
+  .advatageBlockStyles {
+    gap: 8px;
+  }
+  .advantageHeadingStyles {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .advantageDescStyles {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .featuresInnerContainerStyles {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .featuresCardHeadingStyle {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .featuresRightContainerStyles {
+    display: none;
+  }
+  .mobileFeaturesRightContainerStyles {
+    display: block;
+  }
+  .freqQuestionBottomStyles {
+    padding-inline: 0px;
+  }
+  .freqQuestionHeadingStyles {
+    text-align: start;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .questionStyles {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .answerStyles {
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 0px;
+    padding-left: 40px;
+  }
+  .questionBlockStyles {
+    gap: 12px;
+  }
+  .freqQuetionBottomInnerStyles {
+    padding: 24px 16px;
+    border-radius: 16px;
+  }
+  .freqQuestionIconStyles {
+    height: 24px;
+    width: 24x;
+  }
+}

@@ -1,0 +1,119 @@
+/* .navbarOuterContainerStyles {
+  position: sticky;
+  top: 0px;
+  backdrop-filter:blur(6px);
+  background-image: linear-gradient(#ffffff, #ffffff00);
+  background-image: linear-gradient(#ffffffff,#ffffffff,#ffffffff,#ffffff00);
+  background-image: linear-gradient(#ffffff 68%,#ffffff00);
+} */
+.navbarInnerContainerStyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px 128px;
+  align-items: center;
+}
+.menuIconImageStyles {
+  width: 24px;
+  height: 24px;
+}
+.logoContainerStyles,
+.menuIconContainerStyles {
+  cursor: pointer;
+}
+.togggleMenuContainerStyles {
+  position: absolute;
+  right: 128px;
+  top: 32px;
+  background: var(--bgLight);
+  border: 1px solid var(--borderLight);
+  box-shadow: 0px 48px 96px rgba(30, 30, 32, 0.08);
+  border-radius: 16px;
+  padding: 16px;
+}
+.menuLinkStyles {
+  font-family: 'NeueHaasDisplayLight';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--textDark);
+  text-align: start;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1624px) {
+  .navbarInnerContainerStyles {
+    padding: 32px 96px;
+  }
+  .togggleMenuContainerStyles {
+    right: 96px;
+    top: 32px;
+  }
+  .menuLinkStyles {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+@media screen and (min-width: 1080px) and (max-width: 1365px) {
+  .navbarInnerContainerStyles {
+    padding: 32px 64px;
+  }
+  .togggleMenuContainerStyles {
+    right: 64px;
+    top: 32px;
+  }
+  .menuLinkStyles {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 869px) and (max-width: 1079px) {
+  .navbarInnerContainerStyles {
+    padding: 32px 40px;
+  }
+  .togggleMenuContainerStyles {
+    right: 40px;
+    top: 32px;
+  }
+  .menuLinkStyles {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 569px) and (max-width: 868px) {
+  .navbarInnerContainerStyles {
+    padding: 24px 32px;
+  }
+
+  .logoImageStyles {
+    width: 53.38px;
+    height: 24px;
+  }
+
+  .togggleMenuContainerStyles {
+    right: 32px;
+    top: 24px;
+  }
+  .menuLinkStyles {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .navbarInnerContainerStyles {
+    padding: 24px;
+  }
+  .logoImageStyles {
+    width: 53.38px;
+    height: 24px;
+  }
+  .togggleMenuContainerStyles {
+    right: 24px;
+    top: 24px;
+  }
+  .menuLinkStyles {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

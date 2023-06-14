@@ -1,0 +1,129 @@
+.problemsCardStyles {
+  border: 1px solid var(--borderLight);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding: 24px;
+  background-color: var(--bgLight);
+}
+.problemsCardHeadStyles {
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+  align-items: center;
+  gap: 4px;
+}
+.problemsHeadingStyles {
+  text-align: start;
+  font-family: 'NeueHaasDisplayMedium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--textDark);
+}
+.problemDescStyles {
+  font-family: 'Manrope-Medium';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: -0.011em;
+  color: var(--textThinLight);
+  text-align: start;
+}
+.problemIconStyles {
+  width: 28px;
+  height: 28px;
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1624px) {
+  .problemsCardStyles {
+    width: 628px;
+  }
+  .problemsHeadingStyles {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .problemIconStyles {
+    width: 24px;
+    height: 24px;
+  }
+  .problemDescStyles {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 1080px) and (max-width: 1365px) {
+  .problemsCardStyles {
+    width: 544px;
+  }
+  .problemIconStyles {
+    width: 24px;
+    height: 24px;
+  }
+  .problemsHeadingStyles {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .problemDescStyles {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media screen and (min-width: 869px) and (max-width: 1079px) {
+  .problemIconStyles {
+    width: 22px;
+    height: 22px;
+  }
+  .problemsHeadingStyles {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .problemDescStyles {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .problemsCardStyles {
+    width: 378px;
+  }
+}
+@media screen and (min-width: 569px) and (max-width: 868px) {
+  .problemIconStyles {
+    width: 24px;
+    height: 24px;
+  }
+  .problemsHeadingStyles {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .problemDescStyles {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .problemsCardStyles {
+    width: 100%;
+    padding: 24px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .problemIconStyles {
+    width: 24px;
+    height: 24px;
+  }
+  .problemsHeadingStyles {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .problemDescStyles {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .problemsCardStyles {
+    width: 100%;
+    padding: 16px;
+  }
+}

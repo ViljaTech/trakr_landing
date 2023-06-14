@@ -1,0 +1,110 @@
+.featuresCardOuterStyles {
+  flex: 50%;
+}
+.featuresCardInnerStyles {
+  background: var(--bgLight);
+  border: 1px solid var(--borderLight);
+  border-radius: 32px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.featuresCardImageBlockStyles {
+  text-align: start;
+}
+.featuresCardImageStyles {
+  width: 40px;
+  height: 40px;
+}
+.featuresCardDescBlockStyles {
+  display: flex;
+  flex-direction: column;
+}
+.featuresCardDescStyles,
+.mobileFeaturesCardDescStyles {
+  text-align: start;
+  font-family: 'Manrope-Medium';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: var(--textDark);
+}
+.mobileFeaturesCardDescStyles {
+  display: none;
+}
+@media screen and (min-width: 1366px) and (max-width: 1624px) {
+  .featuresCardImageStyles {
+    width: 32px;
+    height: 32px;
+  }
+  .featuresCardDescStyles {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 1080px) and (max-width: 1365px) {
+  .featuresCardImageStyles {
+    width: 32px;
+    height: 32px;
+  }
+  .featuresCardDescStyles {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 869px) and (max-width: 1079px) {
+  .featuresCardImageStyles {
+    width: 32px;
+    height: 32px;
+  }
+  .featuresCardDescStyles {
+    padding-right: 38%;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media screen and (min-width: 569px) and (max-width: 868px) {
+  .featuresCardImageStyles {
+    width: 32px;
+    height: 32px;
+  }
+  .featuresCardDescStyles {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .featuresCardInnerStyles {
+    border-radius: 24px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .featuresCardOuterStyles {
+    flex: 100%;
+  }
+  .featuresCardInnerStyles {
+    flex-direction: row;
+    gap: 8px;
+    border-radius: 16px;
+    padding: 16px;
+  }
+  .featuresCardImageStyles {
+    width: 24px;
+    height: 24px;
+  }
+  .featuresCardDescStyles {
+    display: none;
+    padding-right: 0%;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .featuresCardDescBlockStyles {
+    flex-direction: row;
+  }
+  .mobileFeaturesCardDescStyles {
+    display: block;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
