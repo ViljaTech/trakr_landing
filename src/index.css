@@ -14,7 +14,7 @@
   --bgLight: #ffffff;
 
   --borderDark: #1e1e20;
-  --borderLight: #dbe1ed; 
+  --borderLight: #dbe1ed;
 
   --textDark: #1e1e20;
   --textLight: #ffffff;
@@ -48,6 +48,11 @@
   font-weight: 800;
 }
 
+/*******   Inter-Tight font-family ******/
+@font-face {
+  font-family: 'Inter-Tight';
+  src: url('./assets//fonts/InterTight-VariableFont_wght.ttf');
+}
 /*******   NeueHaasDisplay font-family ******/
 @font-face {
   font-family: 'NeueHaasDisplayLight';
@@ -55,7 +60,7 @@
   font-weight: 300;
 }
 @font-face {
-  font-family: 'NeueHaasDisplayMedium';
+  font-family: 'NeueHaasDisplayLight';
   src: url('./assets//fonts/NeueHaasDisplayMediu.ttf');
   font-weight: 400;
 }

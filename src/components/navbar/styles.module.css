@@ -32,9 +32,9 @@
   padding: 16px;
 }
 .menuLinkStyles {
-  font-family: 'NeueHaasDisplayLight';
+  font-family: 'Inter-Tight';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   color: var(--textDark);

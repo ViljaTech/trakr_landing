@@ -24,7 +24,7 @@
   gap: 40px;
 }
 .modalHeadingStyles {
-  font-family: 'NeueHaasDisplayMedium';
+  font-family: 'Inter-Tight';
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -88,11 +88,11 @@
 }
 .submitButtonStyles {
   border: none;
-  border-radius: 8px;
+  border-radius: 24px;
   background-color: var(--btnPrimary);
   color: var(--textLight);
   padding: 12px 32px;
-  font-family: 'Manrope-Regular';
+  font-family: 'Inter-Tight';
   font-style: normal;
   font-size: 18px;
   line-height: 28px;
@@ -112,14 +112,14 @@
     width: 720px;
     gap: 32px;
   }
-  .modalHeadingStyless {
+  .modalHeadingStyles {
     font-size: 38px;
     line-height: 42px;
   }
-  .modalHeadingBlockStyle{
+  .modalHeadingBlockStyle {
     gap: 8px;
   }
-  .modalDescStyless {
+  .modalDescStyles {
     font-size: 16px;
     line-height: 24px;
   }
@@ -141,14 +141,14 @@
     width: 100%;
     gap: 32px;
   }
-  .modalHeadingBlockStyle{
+  .modalHeadingBlockStyle {
     gap: 8px;
   }
-  .modalHeadingStyless {
+  .modalHeadingStyles {
     font-size: 38px;
     line-height: 42px;
   }
-  .modalDescStyless {
+  .modalDescStyles {
     font-size: 14px;
     line-height: 22px;
   }
@@ -170,7 +170,7 @@
     width: 100%;
     gap: 32px;
   }
-  .modalHeadingBlockStyle{
+  .modalHeadingBlockStyle {
     gap: 8px;
   }
   .modalHeadingStyles {
@@ -200,7 +200,7 @@
     gap: 32px;
     padding: 24px;
   }
-  .modalHeadingBlockStyle{
+  .modalHeadingBlockStyle {
     gap: 8px;
   }
   .modalHeadingStyles {
@@ -225,13 +225,13 @@
   .modalOuterContainerStyles {
     padding: 96px 8px;
   }
-  .modalHeadingBlockStyle{
+  .modalHeadingBlockStyle {
     gap: 8px;
   }
   .modalInnerContainerStyles {
     width: 100%;
     gap: 32px;
-    padding:  24px 16px ;
+    padding: 24px 16px;
   }
   .modalHeadingStyles {
     font-size: 28px;
@@ -242,7 +242,7 @@
     line-height: 24px;
   }
   .inputStyles::placeholder {
-    font-size: 16px; 
+    font-size: 16px;
     line-height: 24px;
   }
   .submitButtonStyles {

@@ -11,7 +11,7 @@ import {
 const Modal = (props) => {
   const [formData, setFormData] = useState({
     name: '',
-    email: '', 
+    email: '',
     // phoneNumber: '',
     // companyName: '',
     message: '',
@@ -148,6 +148,7 @@ const Modal = (props) => {
                 rows={5}
                 placeholder="Your message here (Optional)"
                 className={Styles.inputStyles}
+                style={{ resize: 'none' }}
                 name="message"
                 value={formData.message}
                 onChange={(e) => handleChange(e)}
@@ -156,7 +157,7 @@ const Modal = (props) => {
           </div>
           <div className={Styles.submitButtonBlockStyles}>
             <button type="submit" className={Styles.submitButtonStyles}>
-              Join wait list now!
+              Submit form
             </button>
           </div>
         </form>
